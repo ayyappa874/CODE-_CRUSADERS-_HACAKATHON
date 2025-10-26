@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>PlanPal v3</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header><h1>PlanPal Bot 🤖 — v3</h1></header>
+    <main>
+      <section class="chat">
+        <div id="messages" class="messages"></div>
+        <div class="composer">
+          <select id="mood">
+            <option value="">-- Mood --</option>
+            <option value="chill">Chill 😎</option>
+            <option value="adventurous">Adventurous 🚴‍♂️</option>
+            <option value="foodie">Foodie 🍕</option>
+          </select>
+          <input id="input" placeholder="Ask PlanPal Bot for suggestions..." />
+          <button id="send">Send</button>
+        </div>
+      </section>
+      <section class="polls">
+        <h2>Polls</h2>
+        <div id="polls"></div>
+      </section>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
